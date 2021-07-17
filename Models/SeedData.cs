@@ -23,37 +23,37 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
-                        Rating = "R",
+                        Title = "The RM",
+                        ReleaseDate = DateTime.Parse("2003-1-31"),
+                        Genre = "Spiritual",
+                        Rating = "G",
                         Price = 7.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
-                        Rating = "R",
+                        Title = "Other Side of Heaven",
+                        ReleaseDate = DateTime.Parse("2001-12-14"),
+                        Genre = "Spiritual",
+                        Rating = "G",
                         Price = 8.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
-                        Rating = "R",
+                        Title = "Meet the Mormons",
+                        ReleaseDate = DateTime.Parse("2014-10-10"),
+                        Genre = "Spiritual",
+                        Rating = "G",
                         Price = 9.99M
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
-                        Rating = "R",
+                        Title = "17 Miracles",
+                        ReleaseDate = DateTime.Parse("2011-6-3"),
+                        Genre = "Spiritual",
+                        Rating = "G",
                         Price = 3.99M
                     }
                 );
